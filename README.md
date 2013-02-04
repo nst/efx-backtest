@@ -20,7 +20,7 @@ The cumulated PnL is written on stdout and can be ploted by gnuplot. Metrics are
     realized pnl     : 9271.000000
     unrealized pnl   : 205.000000
 
-![eForex PnL](https://github.com/nst/efx-backtest/raw/master/charts/pnl.png "eforex pnl chart")
+![eForex PnL](charts/pnl.png "eforex pnl chart")
 
 #### Heatmap
 
@@ -30,4 +30,4 @@ In `markey.py`, `HEATMAP = True` instanciates several strategies with a paramete
 
 In the following heatmap, we can see that following the trend of the previous day on EUR/USD since 2001 and a SL/TP at ± 278 pips would have resulted in a 6000 pips profit after 1000 days (with a max. exposure of 10k USD).
 
-![eForex Heatmap](https://github.com/nst/efx-backtest/raw/master/charts/heatmap.png "eforex pnl heatmap")
+![eForex Heatmap](charts/heatmap.png "eforex pnl heatmap")
