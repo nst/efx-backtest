@@ -24,7 +24,7 @@ The cumulated PnL is written on stdout and can be ploted by gnuplot. Metrics are
 
 #### Heatmap
 
-In `markey.py`, `HEATMAP = True` instanciates several strategies with a parameter. It runs the whole history with each strategy instance. It then outputs heatmap data, usable by `heatmap.gnuplot`.
+In `market.py`, `HEATMAP = True` instanciates several strategies with a parameter. It runs the whole history with each strategy instance. It then outputs heatmap data, usable by `heatmap.gnuplot`.
 
     $ python market.py > heatmap.txt && gnuplot heatmap.gnuplot && open heatmap.png
 
