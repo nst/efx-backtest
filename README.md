@@ -2,7 +2,7 @@
 
 #### Goal
 
-Ever wondered what would have happened if you had always followed the trend? or if you had played against tue market? or if you had set a take-profit of twice as much as the stop-loss?
+Ever wondered what would have happened if you had always followed the trend? or if you had played against the market? or if you had set a take-profit of twice as much as the stop-loss?
 
 `efx-backtest` is a minimalist eForex backtest engine. It lets you implement an automatic trading strategy in a few lines of Python and provides you with a profit-and-loss chart as well as simple metrics.
 
